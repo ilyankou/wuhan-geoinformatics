@@ -27,7 +27,9 @@ This study aims to investigate the relationship between Place Connectivity Index
 
 ## Study Area
 
-Lower 48 region of US 
+Lower 48 region of US. [Reference](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html)
+
+<img width="961" alt="image" src="https://github.com/kshitijrajsharma/wuhan-geoinformatics/assets/36752999/2a3ccc07-cc8e-4d7a-a45a-9b051125a681">
 
 
 ## Methodology
