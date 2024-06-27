@@ -1,9 +1,21 @@
 ---
 marp: true
+paginate: true
 ---
 
-# Group Project for Geoinformatics Summer School - 2024 Wuhan, China
+# Exploring relationship between Place Connectivity Index (PCI) and impact of COVID-19
+
+### Group Project for Geoinformatics Summer School - 2024 Wuhan, China
 ============================================================
+    
+#### Group 3
+
+- Kshitij Raj Sharma (Nepal)
+- Ilya Ilyankou (Belarus)
+- Rheecha Sharma (Nepal)
+- Tang Yongli (China)
+
+
 
 ---
 
@@ -19,8 +31,7 @@ marp: true
 ---
 
 ## Introduction 
-<!-- <a name="introduction"></a> -->
-### Exploring relationship between Place Connectivity Index (PCI) and impact of COVID-19
+
 
 Place Connectivity Index (PCI) based on spatial interactions among places can provide valuable insights in flow of population with respect to time. PCI offers a unique lens through which to examine the complex factors influencing the COVID-19 pandemic. This study seeks to investigate the relationship between PCI and the pandemic's impact.
 
