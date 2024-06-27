@@ -68,5 +68,3 @@ Measure of spatial interactions among places due to intense human movement.
 ### GWR 
 
 Geographically weighted regression (GWR): It is a spatial analysis technique that takes non-stationary variables into consideration (e.g., climate; demographic factors; physical environment characteristics) and models the local relationships between these predictors and an outcome of interest. [Reference](https://www.publichealth.columbia.edu/research/population-health-methods/geographically-weighted-regression)
-
----
