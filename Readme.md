@@ -15,8 +15,6 @@ paginate: true
 - Rheecha Sharma (Nepal)
 - Tang Yongli (China)
 
-
-
 ---
 
 ## Table of Contents
@@ -42,9 +40,12 @@ While it is often assumed that areas with higher PCI will have a higher populati
 
 ## Objective
 
-This study aims to investigate the relationship between Place Connectivity Index (PCI) and the death ratio of COVID-19, with a focus on how this relationship changes over time and varies by different factors including availablity of hospitals , wealth of residing people in the area. Specifically, our objectives are to:
+This study aims to investigate the relationship between Place Connectivity Index (PCI) and the death ratio of COVID-19, with a focus on how this relationship changes over time and varies by different factors including availablity of hospitals , wealth of residing people in the area. Specifically, We are trying to understand
 
-- We are trying to understand which are the cities with High PCI , Are they wealthier ? Do they have more infrastructure , Does the covid death count reacted accordnigly or in contrast ? 
+- What are the places with High PCI.,
+- Are they wealthier ?
+- Do they have more infrastructure ,
+- Does the covid death count reacted accordnigly or in contrast ? 
 
 ---
 
