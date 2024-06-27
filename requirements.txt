@@ -1,0 +1,4 @@
+geopandas==1.0.0
+matplotlib==3.9.0
+mgwr==2.2.1
+scipy==1.14.0 
