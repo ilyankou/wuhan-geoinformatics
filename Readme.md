@@ -18,7 +18,7 @@ Group 3 Project &bull; 2024 Geoinformatics Summer School (SSII) at Wuhan Univers
 
 In this project, we investigate the relationship between place connectivity and Covid-19 deaths rates, and how this relationship changed throughout 2020, the first year of the pandemic in the US, and for various regions of the US.
 
-While it is fair to assume that highly-connected places may suffer more from the pandemic due to greater human mobility and as such virus spread, the reality is more complex.
+While it is fair to assume that highly-connected places may suffer more from the pandemic due to greater human mobility and as such the virus spread, the reality is more complex.
 
 ---
 
@@ -52,7 +52,7 @@ While it is fair to assume that highly-connected places may suffer more from the
 
 # 3. Perform Geographically Weighted Regression
 
-- GWR assumes that the relationship between variables may change over space due to spatial heterogeneity, and perforns separate regressions for each location, paying *more* attention to nearby observations.
+- GWR assumes that the relationship between variables may change over space due to spatial heterogeneity, and performs separate regressions for each location, paying *more* attention to nearby observations.
 - To better understand spatial heterogeneity between PCI and the death-to-case ratio, we fit three GWR models:
     - for the whole year (March-December 2020),
     - for the first three months of the pandemic (March-May 2020)
@@ -90,6 +90,13 @@ We then grouped counties based on their PCI quintile: very low (0-20%), low (20-
 
 
 ###### *Source: 2018 county boundaries (US Census Bureau); 2019 PCI by Li et al.*
+
+---
+
+# SafeGraph origin-destination mobility data shows a similar pattern for the US
+
+![](img/safegraph.png)
+
 ---
 
 ## Higher PCI is associated with younger, wealthier, and better educated population with better access to healthcare
@@ -115,9 +122,9 @@ section {
 h1 {color: white}
 </style>
 
-# The correlation coefficient between PCI and deaths/cases for Ma—Dec 2020 is -0.0998
+# The correlation coefficient between PCI and deaths/cases for Mar—Dec 2020 is -0.0998
 
-*This coefficient passed the t-test at p-value <0.00001*
+*This coefficient passed the t-test for p-value <0.00001*
 
 ## In other words, overall in the first nine months of the pandemic, higher place connectivity is associated with fewer deaths after testing positive.
 
@@ -142,7 +149,7 @@ According to the T-tests, the relationship between PCI and deaths-to-cases ratio
 
 # Deaths/Cases Ratios by PCI Group by Month
 
-At the start of the pandemic, lower-PCI places experienced fewer deaths per positive case, compared to higher-PCI places. By the end of the year, the trend has reversed.
+At the start of the pandemic, lower-PCI places experienced fewer deaths per positive case, compared to higher-PCI places. By the end of the year, the trend had reversed.
 
 ![](img/dc_pci_grouped.png)
 
@@ -190,10 +197,20 @@ At the start of the pandemic, lower-PCI places experienced fewer deaths per posi
 - However, overall in the first 9 months of the pandemic, we show that **better-connected places generally have lower death rates**
     - The evidence becomes clearer at the end of 2020, during the second Covid wave
 
-- We suggest the government should focus more on less-connected (rural and often poorer) areas during the next pandemic, such as improving access to healthcare, and strenghening health education and awareness
+- We suggest the government should focus more on less-connected (rural and often poorer) areas during the next pandemic, such as improving access to healthcare, and strengthening health education and awareness
 ---
 
-# Thank you! Any questions?
+# Data sources 
+
+- [Place Connectivity Index](https://github.com/GIBDUSC/Place-Connectivity-Index) by Li et al.
+- [2019 American Community Survey, 5-year estimates]((https://data.census.gov/)) via data.census.gov
+- [US Hospital Locations](https://www.kaggle.com/datasets/andrewmvd/us-hospital-locations) dataset by Larxel on Kaggle
+- [2018 US county boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html) by US Census Bureau
+- [NYTimes Covid-19 cases and deaths](https://github.com/nytimes/covid-19-data) on GitHub
+
+---
+
+# Thank you! Any questions❓
 
 You can find these slides, and the source code on GitHub: https://github.com/ilyankou/wuhan-geoinformatics
 
