@@ -4,6 +4,7 @@
 ## Table of Contents
 * [Introduction](#introduction)
 * [Objective](#objective)
+* [Study Area](#studyarea)
 * [Methodology](#methodology)
 * [Results](#results)
 * [Conclusion](#conclusion)
@@ -26,6 +27,7 @@ This study aims to investigate the relationship between Place Connectivity Index
 - We are trying to understand which are the cities with High PCI , Are they wealthier ? Do they have more infrastructure , Does the covid death count reacted accordnigly or in contrast ? 
 
 ## Study Area
+<a name="studyarea"></a>
 
 Lower 48 region of US. [Reference](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html)
 
