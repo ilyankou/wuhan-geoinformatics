@@ -22,6 +22,7 @@ paginate: true
 ## Table of Contents
 * [Introduction](#introduction)
 * [Objective](#objective)
+* [Data Sources](#data-sources)
 * [Study Area](#study-area)
 * [Methodology](#methodology)
 * [Results](#results)
@@ -51,6 +52,16 @@ This study aims to investigate the relationship between Place Connectivity Index
 Lower 48 region of US. [Reference](https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html)
 
 ![alt text](img/study-area.png)
+
+---
+
+## Data Sources
+
+- Country level PCI Index (US_County_PCI_2019) [Source]
+- US County Boundary 
+- Age Group , Income , Bachelor Education , Insured data (American Community Survey 2019)
+- Covid 19 Cases for the Year 2020 (NYTimes)
+
 
 ---
 ## Methodology
